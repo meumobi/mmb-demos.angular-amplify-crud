@@ -1,0 +1,46 @@
+# this is an auto generated file. This will be overwritten
+
+subscription OnCreatePlayer($filter: ModelSubscriptionPlayerFilterInput) {
+  onCreatePlayer(filter: $filter) {
+    id
+    firstName
+    lastName
+    birthDate
+    area
+    ccNum
+    nif
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnUpdatePlayer($filter: ModelSubscriptionPlayerFilterInput) {
+  onUpdatePlayer(filter: $filter) {
+    id
+    firstName
+    lastName
+    birthDate
+    area
+    ccNum
+    nif
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnDeletePlayer($filter: ModelSubscriptionPlayerFilterInput) {
+  onDeletePlayer(filter: $filter) {
+    id
+    firstName
+    lastName
+    birthDate
+    area
+    ccNum
+    nif
+    createdAt
+    updatedAt
+    __typename
+  }
+}

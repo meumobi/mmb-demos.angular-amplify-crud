@@ -10,6 +10,11 @@
       "StackName": "amplify-ngamplifycrud-dev-165108",
       "StackId": "arn:aws:cloudformation:eu-west-1:578547300503:stack/amplify-ngamplifycrud-dev-165108/c5e9f880-1694-11ee-aec3-02cf4a6211ff",
       "AmplifyAppId": "d39ekhgd7pma19"
+    },
+    "categories": {
+      "api": {
+        "ngamplifycrud": {}
+      }
     }
   }
 }

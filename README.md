@@ -26,6 +26,7 @@ Then I've decided to write a tutorial to guide you through [setting up an AWS ba
 ## Getting Started
 
 - [docs/SETUP](docs/1-SETUP)
+- [docs/Connect API and DB](docs/2-Connect%20API%20and%20DB)
 
 ### Installing
 
