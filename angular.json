@@ -21,7 +21,8 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "src/polyfills.ts"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -32,7 +33,27 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "uuid",
+              "lodash",
+              "url",
+              "buffer",
+              "ulid",
+              "camelcase-keys",
+              "buffer",
+              "classnames",
+              "qrcode",
+              "xstate",
+              "style-dictionary",
+              "@aws-crypto",
+              "fast-xml-parser",
+              "isomorphic-unfetch",
+              "js-cookie",
+              "cookie",
+              "@aws-crypto/sha256-browser",
+              "@aws-crypto/crc32"
+            ]
           },
           "configurations": {
             "production": {

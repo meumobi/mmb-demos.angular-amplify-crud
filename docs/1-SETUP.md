@@ -185,6 +185,9 @@ https://eu-west-1.console.aws.amazon.com/amplify/home?region=eu-west-1#/d39ekhgd
 % npm install --save aws-amplify @aws-amplify/ui-angular
 + aws-amplify@4.3.21
 + @aws-amplify/ui-angular@2.4.0
+% npm ls aws-amplify @aws-amplify/ui-angular --depth 0
+├── @aws-amplify/ui-angular@4.0.1
+└── aws-amplify@5.3.3
 
 % npm start
 ```
